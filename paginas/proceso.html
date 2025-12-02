@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso - TP Final</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.1/dist/paper.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="paper">
+
+    <header>
+        <h1>Proceso de Producción</h1>
+        <p>Cómo construimos la Aventura Gráfica Interactiva</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="introduccion.html">Introducción</a></li>
+            <li><a href="proceso.html">Proceso</a></li>
+            <li><a href="creditos.html">Equipo</a></li>
+        </ul>
+    </nav>
+
+    <main class="row">
+
+        <div class="col-md-6 my-3">
+            <div class="card p-3">
+                <h3>Temática del Proyecto</h3>
+                <p>
+                    El proyecto está inspirado en la película <strong>Hércules</strong> pero adaptado
+                    al mundo universitario y del <strong>rugby en La Plata</strong>.
+                </p>
+                <p>
+                    La idea principal fue trabajar los conceptos de:
+                </p>
+                <ul>
+                    <li><strong>Gloria</strong> (representada en Los Pumas)</li>
+                    <li><strong>Deber</strong> (entrenamiento y disciplina)</li>
+                    <li><strong>Atracción</strong> (Megara)</li>
+                </ul>
+                <p>
+                    Todo esto llevado a decisiones dentro de una Aventura Gráfica con humor y estética mitológica.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-6 my-3">
+            <div class="card p-3">
+                <h3>Desarrollo Técnico</h3>
+                <p>
+                    La aplicación está creada con <strong>p5.js</strong> usando un sistema modular basado en pantallas.
+                </p>
+                <p>Los elementos técnicos más importantes fueron:</p>
+
+                <ul>
+                    <li>
+                        Un <strong>arreglo de objetos</strong> llamado <code>historia</code>
+                        que contiene las escenas, textos y decisiones.
+                    </li>
+                    <li>
+                        La variable <code>pantallaActual</code>,
+                        que determina qué parte de la historia se muestra.
+                    </li>
+                    <li>
+                        La función <code>mousePressed()</code> que detecta clics
+                        y cambia a la siguiente pantalla según la decisión del jugador.
+                    </li>
+                    <li>
+                        Funciones con parámetros como
+                        <code>dibujarPantalla(data)</code> para mantener el código organizado.
+                    </li>
+                </ul>
+
+                <p>
+                    El estilo visual combina elementos del <strong>PaperCSS</strong> con la
+                    <strong>paleta de colores mitológica</strong> que definimos para el proyecto.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-12 my-3">
+            <div class="card p-3">
+                <h3>Reflexión Final</h3>
+                <p>
+                    Este trabajo nos permitió mezclar programación, narrativa, estética y humor.
+                    Al mismo tiempo, nos acercó a entender mejor cómo funciona una Aventura Gráfica desde cero.
+                </p>
+                <p>
+                    El resultado final es una experiencia interactiva que combina mitología,
+                    decisiones, rugby y drama romántico universitario.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2025 - Proyecto inspirado en Hércules | Lucía y Mia</p>
+    </footer>
+
+</body>
+</html>
